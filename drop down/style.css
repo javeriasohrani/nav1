@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rosybrown;
+    padding-bottom: 2px;
+}
+.center-menu li{
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px 20px 10px 15px;
+    color: royalblue;
+  
+}
+.left-menu li{
+    display: inline-block;
+    padding:10px 10px;
+    color:royalblue;
+}
+.center-menu li .drop-down-wrap{
+    display:relative;
+ 
+
+}
+.drop-down-wrap .drop-down{
+    width:300px;
+    height:150px;
+    display: absolute;
+    right: -200px;
+    top: 50px;
+    display: none;
+}
+.logo-wrap{
+    width:30px;
+    height:30px;
+}
+.logo-wrap img {
+    width:100%;
+    height:100%
+}
+
+input#Product:checked ~ .drop-down{
+    display: block;
+    background-color: saddlebrown;}
+    input#Product{
+         display: none; 
+    }
+ .drop-down::after {
+	content: '';
+	position:absolute;
+	top: -10px;
+	/* left: 100px; */
+   border-left: 10px solid transparent;
+   border-right: 10px solid transparent;
+   border-bottom: 10px solid red;
+	border-radius: 1px;}

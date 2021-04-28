@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    }
+.body-content div.about{
+    background: url(assets/images/product.png);
+    background-position:right center;
+    background-repeat: no-repeat;
+    background-color: beige;
+    padding: 40px;
+    margin: 10px 20px;
+    background-size:30%;
+
+
+}
+
+.body-content div.about .content {
+    min-height: 200px;}
+    
+.body-content div.about ul li{
+    display: inline-block;
+    margin: 0 30px;
+    position: relative;  
+}
+.body-content div.about li a{
+text-decoration: none;
+color: cadetblue;
+}
+.appolo-content{
+    top:25px;
+    width:250px;
+     position:absolute; 
+    
+    }
+
+.input#appolo:checked ~ .appolo-content{
+    display:block;
+    background-color: blueviolet;
+}
+.input#appolo:checked ~ .label{
+    color: chocolate;
+    border-bottom: 2px solid chocolate;
+}
+.input-box{
+    display: none;
+}
+div.cards-wrap{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 0;
+}
+div.cards-wrap .cards{
+        width:400px;
+        height:250px;
+        box-sizing: border-box;
+        border-radius: 10px ;
+        background-color: darkkhaki;
+        margin:  10px 20px;
+        padding:10px 20px;
+        
+}
+.user-wrap{
+    width:40px;
+    height:40px;
+}
+.user-wrap img{
+    width:100%;
+    height:100;
+    border-radius: 100%;
+}
+h3{
+    margin-bottom:10px;
+    color: darkcyan;
+    }
+p{
+    font-size: 12px;
+    color: cornflowerblue;
+    margin-bottom: 14px;
+}
+.viewers ul{
+    text-align: right;
+    margin-right: 15px;
+}
+.viewers ul li{
+    display: inline-block;
+    margin-right: -20px;
+    border:2px solid;
+    border-radius: 60px;
+}
+
+.image-wrap{
+    width:30px;
+    height:30px;
+}
+.image-wrap img{
+    width:100%;
+    height:100%;
+    border-radius:100%;
+    
+}

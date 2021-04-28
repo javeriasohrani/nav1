@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+.login{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    
+}
+.login .login-wrap {
+padding: 40px 90px 90px;}
+
+
+.img-wrap{
+    width:60%;
+    height:100vh ;
+}
+.img-wrap img{
+    width:100%;
+    height:100%;
+}
+.login-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.login.login-wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-form h3.title{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 50px;
+}
+.login-form h5.sub-title{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+.login-form p{
+    color: cadetblue;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.input-wrap label{
+font-size: 18px;
+font-weight: bold;
+display: inline-block;
+color: black;
+margin-bottom: 8px;
+}
+.input-wrap .input-field{
+    display: block;
+    padding:8px;
+    border: 1px solid;
+    border-radius: 10px;
+    width:350px;
+    margin-bottom: 10px;
+    color: rgb(180, 173, 173);
+}
+.form-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.form-actions .Remember label{
+    font-size:18px;
+    color:black;
+    margin-top: 10px;
+}
+.forgot{
+    font-size: 18px;
+    color: rgb(97, 97, 189);
+
+}
+.sumbit-btn{
+    display: block;
+    background-color: blue;
+    color: cornsilk;
+    width:330px;
+    font-size: 14px;
+    padding:8px;
+    border:1px solid;
+    border-radius: 10px;
+
+}
+    
+.forgot:hover{
+    cursor: pointer;}
+    .help p{
+        font-size: 18px;
+        align-items: center;
+        color: rgb(92, 92, 133);
+    }

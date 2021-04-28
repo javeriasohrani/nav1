@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    }
+    .main-content div.About{
+        background: url(assets/images/emma-matthews-567486-unsplash.jpg);
+        background-position: right center;
+        background-color:whitesmoke;
+        background-repeat: no-repeat;
+        background-size: 40%;
+        padding: 30px;
+        margin: 10px 20px;
+    }
+   .content{
+        min-height: 200px;
+    }
+     .content ul li{
+        display: inline-block;
+        margin:0 20px;
+        position: relative;
+    }
+   .content ul li a{
+        text-decoration: none;
+        color: violet;
+        margin: 0px 20px;
+    }
+
+    .input-box{
+        display: none;
+    }
+    .label{
+        display: hidden;
+    }
+
+.appolo-content{
+    top:25px;
+    width:300px;
+    position: absolute;
+    display: none;
+}
+input#appolo:checked ~ .appolo-content{
+    display: block;
+    background-color: turquoise;
+}
+input#appolo:checked ~ .label{
+    color: tomato;
+    border-bottom: 2px solid;}
+
+    .cards-wrap{
+        display: flex;
+        justify-content: space-between;
+    
+        }
+    .cards{
+            width:370px;
+            height:260px;
+            padding:10px 15px;
+            margin:10px 20px;
+            background-color: rgb(255, 175, 28);
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+    .user-wrap{
+        width:40px;
+        height:40px;
+
+        
+    }
+    .user-wrap img{
+        width:100%;
+        height:100%;
+        border-radius: 10px;
+
+    }
+    .viewers ul{
+        text-align: right;
+        margin-right: 15px;
+    }
+    .viewers li{
+        display: inline-block;
+        margin-right:-20px;
+       
+
+    }
+    .viewers-wrap{
+        width:40px;
+        height:40px;
+    }
+    .viewers-wrap img{
+        width:100%;
+        height:100%;
+        border-radius: 15px;
+    }
+    h3{
+        color: rgb(43, 53, 52);
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 14px;
+        color: rgb(145, 82, 103);
+        margin-bottom: 10px;
+    }

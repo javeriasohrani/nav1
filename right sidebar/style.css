@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+.title{
+    display: flex;
+    justify-content:flex-start;
+    padding:30px;
+}
+a{
+    margin-left: 30px;
+}
+li{
+    display: block;
+}
+
+.main-menu{
+    padding:35px;
+    margin:40px;
+    background-color: cornsilk;
+}
+h2{
+    font-size: 52px;
+ 
+    color: rgb(13, 13, 163);
+    font-weight: bold;
+}
+.items{
+    line-height: 42px;
+    padding:10px;
+    margin-left:10px ;
+}
+h4{
+    margin-right:20px ;
+}

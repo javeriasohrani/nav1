@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing:border-box ;
+
+}
+.view_main-menu{
+    padding:70px;
+    background-color: white;
+}
+
+.view_Multiple-viewers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   box-sizing: border-box;
+    border-radius: 10px;
+    padding:20px;
+    
+ 
+   
+}
+.view_viewers{
+    padding:20px;
+    border: 1px solid;
+    border-radius: 5px;
+    min-width:220px;
+
+}
+.view_viewers ul{
+    margin-left: 10px;
+}
+.view_viewers ul li{
+    display: inline-block; 
+    margin: 0 0 0 -10px;
+   
+    
+  
+ }
+
+.view_title{
+    display:flex;
+    justify-content: space-between;
+}
+.view_show a {
+    font-size: 14px;
+}
+    

@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.exp_work{
+    line-height: 27px;
+    margin:20px;
+    background-color: white;
+       }
+   
+    
+
+.exp_logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin:30px;
+   
+    
+
+   
+}
+.exp_main-menu{
+padding:40px;
+}
+.exp_heading h3{
+    margin-left: 20px;
+}
+
+
+
+
+
+   
+

@@ -1,0 +1,28 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    background-color:white;
+}
+
+.edu_logo{
+    display: flex;
+    justify-content: flex-start;
+    padding:20px;
+  
+
+}
+
+.edu_work{
+    line-height: 20px;
+}
+.edu_main-menu{
+    margin: 20px;
+    background-color: white;
+}
+.edu_heading{
+    margin-left: 20px;
+    line-height: 40px;
+}
